@@ -1,0 +1,15 @@
+POST  http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+  "name":"Algum serviço 2",
+  "description":"Alguma descrição",
+  "price": 1600,
+  "image":"https://pt.dreamstime.com/folhas-de-p%C3%A9tala-flores-desenho-foliar-flor-ilustra%C3%A7%C3%A3o-do-vetor-da-natureza-folhagem-image170049776"
+} 
+
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/640b902e4caeaebda79ccd01
