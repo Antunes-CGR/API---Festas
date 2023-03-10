@@ -5,7 +5,7 @@ async function main() {
     mongoose.set("strictQuery", true);
 
     await mongoose.connect(
-      `mongodb+srv://API-festas:i7bgudOQi7WDu9Oq@cluster0.m1cwjc8.mongodb.net/?retryWrites=true&w=majority`
+      `mongodb+srv://API-FESTAS:1QlpltSaUmusnG9c@festas.fozorws.mongodb.net/?retryWrites=true&w=majority`
     );
 
     console.log("conectado ao banco!");
